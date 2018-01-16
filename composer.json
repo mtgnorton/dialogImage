@@ -1,0 +1,26 @@
+{
+    "name": "mtg/show-image",
+    "description": "show a dialog  to show photos",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "马廷广",
+            "email": "15726204663@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+      "psr-4":{
+        "Mtg\\ShowImage\\":"src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Mtg\\ShowImage\\ShowImageProvider"
+        ]
+
+      }
+    }
+}
