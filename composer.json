@@ -2,6 +2,7 @@
     "name": "mtg/show-image",
     "description": "show a dialog  to show photos",
     "license": "MIT",
+    "keywords": ["show images", "dialog"],
     "authors": [
         {
             "name": "马廷广",
@@ -9,7 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+      "php": ">=7.0.0",
+      "laravel/framework": "~5.5"
+    },
     "autoload":{
       "psr-4":{
         "Mtg\\ShowImage\\":"src/"
